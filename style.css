@@ -1,0 +1,31 @@
+body {
+    color: black;
+}
+.navbar-brand {
+    padding-left: 120px;
+}
+.nav-link {
+    margin: 0 20px;
+}
+.navbar-brand, .nav-link  {
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: aquamarine;
+}
+
+.navbar-brand:hover {
+    color: aquamarine;
+}
+
+#nav-toggle-button {
+    color: red;
+    }
+.main-h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.form {
+    padding: 50px 120px;
+}

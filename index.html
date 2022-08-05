@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebLoop | Form</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Web Loop</a>
+            <button id="nav-toggle-button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Web Loop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pc Loop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<h1 class="main-h1">ORDER PAGE</h1>
+    <!-- Form  -->
+
+    <form action="https://formsubmit.co/ea799d21b86c1eb2b64c308800a4d597" class="form row g-3 needs-validation" method="POST">
+        <div class="col-md-6">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" name="firstname" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" name="lastname" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input name="email" type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+            <input name="phone" type="number" class="form-control" id="exampleFormControlInput1"
+                placeholder="+919876543210" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Enter Your Need</label>
+            <input name="need" type="text" class="form-control" id="exampleFormControlInput1"
+                placeholder="Web Development" required>
+        </div>
+        <!-- <div class="col-md-12">
+            <label for="validationCustom04" class="form-label">Select Your Need</label>
+            <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Choose...</option>
+                <option name="need" value="webdesigning">Web Designing</option>
+                <option name="need" value="webdevelopment">Web Development</option>
+                <option name="need" value="gfxdesigning">GFX Designing</option>
+                <option>Web Designing</option>
+            </select>
+            <div class="invalid-feedback">
+                Please select a valid need.
+            </div>
+        </div> -->
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Address Line 1</label>
+            <input type="text" name="address1" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Please provide a valid address.
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Address Line 2</label>
+            <input type="text" name="address2" class="form-control">
+            
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City/District</label>
+            <input type="text" name="city" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Please provide a valid city or district.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom03" class="form-label">State/Province</label>
+            <input type="text" name="state" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+                Please provide a valid state or province.
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Postal Code</label>
+            <input type="number" name="zip" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+                Please provide a valid postal code.
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                    You must agree before submitting your form.
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+    </form>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
